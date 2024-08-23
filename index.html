@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
     <title>Labirinto</title>
 </head>
 <body>
     <main>
-
+        <div class="passo" id="passo-0">
+            <p>
+                Você estava em sua cabana assistindo à TV, quando houve um grito de alguém pedindo socorro do outro lado da floresta.
+                Você decide tentar ajudá-la, mas primeiro precisa chegar até o local. A luz do luar ilumina muito pouco uma floresta densa
+                que mais parece um labirinto, existem 3 caminhos: NORTE, OESTE e SUL. Qual deles você vai pegar?
+            </p>
+            <button class="btn-choice" data-btn="1">NORTE</button>
+            <button class="btn-choice" data-btn="0">OESTE</button>
+            <button class="btn-choice" data-btn="0">SUL</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>
+                A luz do luar ilumina muito pouco uma floresta densa
+                que mais parece um labirinto, existem 3 caminhos: 
+                NORTE, OESTE e LESTE. Qual deles você vai pegar?
+            </p>
+            <button class="btn-choice" data-btn="0">NORTE</button>
+            <button class="btn-choice" data-btn="0">OESTE</button>
+            <button class="btn-choice" data-btn="2">LESTE</button>
+        </div>
     </main>
+
 </body>
 </html>

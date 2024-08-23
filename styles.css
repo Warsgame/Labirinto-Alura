@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Baskervville SC", serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
