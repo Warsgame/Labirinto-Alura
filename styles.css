@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 100vh;
 }
 
 button{
@@ -20,4 +20,11 @@ button{
 
 .passo.ativo{
     display: block;
+}
+
+main{
+    max-width: 90%;
+    background-color: aqua;
+    padding-top: 100%;
+    padding-bottom: 100%;
 }
