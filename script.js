@@ -10,7 +10,6 @@ avanca.forEach(button => {
     })
 })
 
-//console.log("OLá Mundo");
 
 
 
